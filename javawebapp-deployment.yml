@@ -12,7 +12,7 @@ spec:
         name: javawebapp
     spec:
       containers:
-      - image: bairav004/maven-web-app-docker
+      - image: bairav004/maven-web-app-docker:1
         name: javawebapp
         ports:
         - name: javawebapp
