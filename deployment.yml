@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: javawebapp-ENVIRONMENT-BUILD_NUMBER
-        image: IMAGE
+        image: bairav004/maven-web-app-docker
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
