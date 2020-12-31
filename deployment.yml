@@ -10,7 +10,7 @@ spec:
         app: javawebapp
         version: "BUILD_NUMBER"
     spec:
-      containers:
+      containers: mavenwebappcontainer
       - name: javawebapp-ENVIRONMENT-BUILD_NUMBER
         image: bairav004/maven-web-app-docker
         imagePullPolicy: IfNotPresent
